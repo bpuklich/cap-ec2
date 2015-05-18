@@ -1,5 +1,22 @@
 # Cap-EC2 changelog
 
+## 1.0.0
+
+Cap-EC2 is pretty stable, and the rate of PRs has decreased, so I've
+decided to bump the version to 1.0.0.
+
+* Remove the require of `capistrano/setup`, so that people can make
+  use of `capistrano-multiconfig`. [@ashleybrown](https://github.com/ashleybrown)
+
+## 0.0.19
+
+* Stop using the `colored` gem, switch to `colorize` instead. [@freakphp][https://github.com/freakphp]
+
+## 0.0.18
+
+* Update gemspec to explicitly use the AWS v1 SDK. [@Tomtomgo](https://github.com/Tomtomgo)
+* Fix available roles for newer Capistrano versions. [@AmirKremer](https://github.com/AmirKremer)
+
 ## 0.0.17
 
 * Provide access to EC2 server tags within Capistrano recipes [@eightbitraptor](https://github.com/eightbitraptor)
